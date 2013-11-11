@@ -1,4 +1,5 @@
-= Brown Paper Tickets API Node =
+Brown Paper Tickets API Node
+============================
 
 A simple library for interacting with the Brown Paper Tickets API.
 
@@ -9,11 +10,14 @@ Data is returned as a json object.
 ** You must have Developer Tools added to your account **
 To obtain your developer ID, you must first have developer tools added to your Brown Paper Tickets account. First log into BPT, then go to Account Functions. Click Developer Tools and then add. You'll see a new link in the BPT navigation titled "Developer". Click that and you'll see your developer ID listed at the top.
 
-== Usage ==
+Note: This is my first attempt of creating something usuable in node, please excuse any crappy code to my node noobness.
+
+Usage
+-----
 
 Pretty simple!
 
-```
+``` javascript
 var bptAPI = require('bptAPI');
 
 // You'll need to pass an options object. 
@@ -79,8 +83,9 @@ var eventList = bpt.getEvents(bptOptions, events(events) {
     c_country: [ 'Contact Info's Country' ],
     c_zip: [ 'Contact Info's Zip' ],
     c_email: [ 'Contact Info's email' ] } ]
+```
 
-
-== To Do ==
+To Do
+-----
 
 Add getDates, getPrices.
