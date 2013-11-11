@@ -9,6 +9,6 @@
 	"dependencies": {
 		"xml2js": "0.2.8",
 		"mocha": "1.14.0",
-		"request": "2.27.0",
+		"request": "2.27.0"
 	}
 }
