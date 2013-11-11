@@ -1,5 +1,9 @@
 {
 	"name": "BrownPaperTickets",
+	"description": "A way to get a list of a producer's events on Brown Paper Tickets.",
+	"main": "./lib/bptAPI",
+	"homepage": "http://www.github.com/brownpapertickets",
+	"license": "GPLv2",
 	"version": "0.0.1",
 	"private": true,
 	"dependencies": {

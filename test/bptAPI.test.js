@@ -11,9 +11,9 @@ suite('bpt', function() {
 	this.timeout(0);
 
 	var bptOpts = {
-		devID: 'bnp74TYgNW', // This is required for all calls.
+		devID: 'Developer ID', // This is required for all calls.
 		client: 'chandler',
-		//eventID: 153529,
+		// eventID: 153529,
 		dateID: 741572
 	}
 
@@ -34,9 +34,13 @@ suite('bpt', function() {
 					console.log("--------------");
 				}
 
+
+				return events;
+
 				done();
 
 		});
+
 
 	});
 
