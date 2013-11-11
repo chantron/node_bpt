@@ -7,7 +7,7 @@ A simple library for interacting with the Brown Paper Tickets API.
 
 Data is returned as a json object.
 
-** You must have Developer Tools added to your account **
+**You must have Developer Tools added to your account**
 To obtain your developer ID, you must first have developer tools added to your Brown Paper Tickets account. First log into BPT, then go to Account Functions. Click Developer Tools and then add. You'll see a new link in the BPT navigation titled "Developer". Click that and you'll see your developer ID listed at the top.
 
 Note: This is my first attempt of creating something usuable in node, please excuse any crappy code to my node noobness.
