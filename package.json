@@ -1,5 +1,5 @@
 {
-	"name": "BrownPaperTickets",
+	"name": "bptAPI",
 	"description": "A way to get a list of a producer's events on Brown Paper Tickets.",
 	"main": "./lib/bptAPI",
 	"homepage": "http://www.github.com/brownpapertickets",

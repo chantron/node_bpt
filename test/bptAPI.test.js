@@ -11,8 +11,8 @@ suite('bpt', function() {
 	this.timeout(0);
 
 	var bptOpts = {
-		devID: 'Developer ID', // This is required for all calls.
-		client: 'chandler',
+		devID: '', // This is required for all calls.
+		client: '',
 		// eventID: 153529,
 		dateID: 741572
 	}
@@ -20,19 +20,18 @@ suite('bpt', function() {
 
 	test('Pull all Events', function(done) {
 
-		var eventList = bpt.getEvents(bptOpts, function(events) {
+		var eventList = bpt.getEvents(bptOpts, function(events) {	
 
-				events = JSON.parse(events);
+				console.log(events);
+				// events = events['document']['event'];
 
-				var events = events['document']['event'];
-
-				console.log("\nTotal events: " + events.length);
-				console.log("--------------");
-				for ( var i = 0; i < events.length; i++ ) {
-					console.log(String(events[i]['title']));
-					console.log(String(events[i]['description']));
-					console.log("--------------");
-				}
+				// console.log("\nTotal events: " + events.length);
+				// console.log("--------------");
+				// for ( var i = 0; i < events.length; i++ ) {
+				// 	console.log(String(events[i]['title']));
+				// 	console.log(String(events[i]['description']));
+				// 	console.log("--------------");
+				// }
 
 
 				return events;
